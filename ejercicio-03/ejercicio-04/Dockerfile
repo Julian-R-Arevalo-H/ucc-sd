@@ -1,4 +1,4 @@
-FROM gcc:latest 
+FROM 
 COPY . /app
 WORKDIR /app
 CMD [ "./app" ]
